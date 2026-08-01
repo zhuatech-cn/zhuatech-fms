@@ -15,3 +15,7 @@ Copyright 2026 上海如静知华信息科技有限公司。
 | GET | `/budgets` | 当前财年预算执行 | 登录用户 |
 
 演示角色为 `ADMIN`、`FINANCE_MANAGER`、`EMPLOYEE`。生产落地必须增加法人、核算组织、责任中心、币种、会计期间和单据级数据权限。
+
+## 预算预测
+
+`POST /api/fms/budget-forecast`：返回预测完工成本、预算偏差、超支比例和控制建议。
