@@ -170,3 +170,7 @@ Copyright © 2026 上海如静知华信息科技有限公司
 ## 滚动预算完工预测
 
 新增 `POST /api/fms/budget-forecast`，基于当前实际支出、已承诺金额和业务进度预测完工总成本，返回预算偏差、超支比例与风险等级。高风险结果会给出冻结非必要支出和提交预算调整方案的动作。
+
+## 现金跑道预测
+
+新增 `POST /api/fms/insights/cash-runway-forecast`，综合期初现金、经营流入、承诺与可变支出、应收回款率和最低储备，计算月度净消耗、现金跑道及季度末余额，输出 `POSITIVE_CASHFLOW / HEALTHY / WATCH / CRITICAL` 和催收、控费、融资动作。
