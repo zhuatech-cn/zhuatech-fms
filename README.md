@@ -174,3 +174,7 @@ Copyright © 2026 上海如静知华信息科技有限公司
 ## 现金跑道预测
 
 新增 `POST /api/fms/insights/cash-runway-forecast`，综合期初现金、经营流入、承诺与可变支出、应收回款率和最低储备，计算月度净消耗、现金跑道及季度末余额，输出 `POSITIVE_CASHFLOW / HEALTHY / WATCH / CRITICAL` 和催收、控费、融资动作。
+
+## 应收回款预测
+
+新增 `POST /api/fms/insights/receivable-forecast`，结合应收余额、逾期结构、承诺回款、历史兑现率、争议金额和未来 30 天现金需求，预测可实现回款及流动性缺口，返回 `HEALTHY / WATCH / CRITICAL`。接口会针对逾期集中、争议款和资金缺口生成分层催收及现金安排建议。
