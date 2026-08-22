@@ -1,4 +1,4 @@
-/* Copyright 2026 上海如静知华信息科技有限公司 */
+/* Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ */
 export const accounts=[
   {code:'ACC-CMB-001',name:'招商银行基本户',bank:'招商银行上海张江支行',type:'基本户',balance:286.45,available:278.83,status:'正常'},
   {code:'ACC-ICBC-002',name:'工商银行一般户',bank:'工商银行上海浦东支行',type:'一般户',balance:128.62,available:128.62,status:'正常'},

@@ -1,4 +1,4 @@
-<!-- Copyright 2026 上海如静知华信息科技有限公司 -->
+<!-- Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ -->
 <script setup>import AdminShell from '../../components/AdminShell.vue';import StatusBadge from '../../components/StatusBadge.vue';import {receivables,payables,cashflow,budgets} from '../../api/mock';const bars=[64,78,70,86,77,93,82,98,84,100,89,96]</script>
 <template><AdminShell><template #title>财务驾驶舱</template>
   <div class="page-heading"><div><p>FINANCE OVERVIEW</p><h1>财务驾驶舱</h1><span>资金、往来与预算执行的统一经营视图</span></div><div><button class="button secondary">导出月报</button><button class="button primary">＋ 新建财务事项</button></div></div>

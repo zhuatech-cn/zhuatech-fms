@@ -1,4 +1,4 @@
-<!-- Copyright 2026 上海如静知华信息科技有限公司 -->
+<!-- Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ -->
 <script setup>
 const groups=[
   {label:'财务运营',items:[['/admin/cockpit','财务驾驶舱','⌂'],['/admin/treasury','资金管理','￥'],['/admin/settlement','收付结算','⇄'],['/admin/budget','预算与费用','▤']]},

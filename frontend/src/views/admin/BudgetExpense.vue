@@ -1,4 +1,4 @@
-<!-- Copyright 2026 上海如静知华信息科技有限公司 -->
+<!-- Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ -->
 <script setup>import AdminShell from '../../components/AdminShell.vue';import StatusBadge from '../../components/StatusBadge.vue';import {budgets,expenses} from '../../api/mock'</script>
 <template><AdminShell><template #title>预算与费用</template><div class="page-heading"><div><p>BUDGET CONTROL</p><h1>预算与费用</h1><span>预算编制、占用、执行与员工费用审批</span></div><div><button class="button secondary">预算调整</button><button class="button primary">＋ 新建预算</button></div></div>
 <section class="budget-head"><div><span>2026 年度预算</span><strong>952.0<small> 万</small></strong><p>实际发生 552.8 万 · 已占用 102.5 万</p></div><div class="donut"><b>58.1%</b><small>执行率</small></div><dl><div><dt>可用预算</dt><dd>296.7 万</dd></div><div><dt>预警中心</dt><dd>市场中心</dd></div><div><dt>待审批金额</dt><dd>1.09 万</dd></div></dl></section>

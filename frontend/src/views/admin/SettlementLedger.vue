@@ -1,4 +1,4 @@
-<!-- Copyright 2026 上海如静知华信息科技有限公司 -->
+<!-- Copyright 2026 上海如静知华信息科技有限公司 · https://www.zhuatech.cn/ -->
 <script setup>import {ref} from 'vue';import AdminShell from '../../components/AdminShell.vue';import StatusBadge from '../../components/StatusBadge.vue';import {receivables,payables} from '../../api/mock';const tab=ref('应收管理')</script>
 <template><AdminShell><template #title>收付结算</template><div class="page-heading"><div><p>SETTLEMENT</p><h1>收付结算</h1><span>从业务单据到收付款核销的完整往来台账</span></div><div><button class="button secondary">导入银行回单</button><button class="button primary">＋ 新建应收</button></div></div>
 <section class="settlement-summary"><article><span>应收余额</span><b>199.40 万</b><small>5 个客户 · 7 笔单据</small></article><article><span>本月已回款</span><b>216.00 万</b><small class="positive">完成月度目标 86.4%</small></article><article class="alert"><span>逾期应收</span><b>23.80 万</b><small>逾期 5 天 · 1 笔</small></article><article><span>应付余额</span><b>33.01 万</b><small>未来 7 日 23.55 万</small></article><div><span>本月回款目标</span><b>216.0 / 250.0 万</b><i><em style="width:86.4%"></em></i></div></section>
