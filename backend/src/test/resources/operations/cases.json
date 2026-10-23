@@ -1,0 +1,51 @@
+[
+  {
+    "patch": {},
+    "expected": {
+      "decision": "REVIEW",
+      "overdueDays": "#22",
+      "bucket": "1-30",
+      "unsecured": "#8000",
+      "scenarioLoss": "#400"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "dueDate": "2026-12-01"
+    },
+    "expected": {
+      "decision": "PASS"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "dueDate": "2026-07-01"
+    },
+    "expected": {
+      "decision": "HOLD",
+      "bucket": "90+"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "collateral": "10000"
+    },
+    "expected": {
+      "scenarioLoss": "#0"
+    },
+    "error": false
+  },
+  {
+    "patch": {
+      "graceDays": "30"
+    },
+    "expected": {
+      "decision": "PASS",
+      "overdueDays": "#0"
+    },
+    "error": false
+  }
+]
